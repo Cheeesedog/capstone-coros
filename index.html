@@ -16,117 +16,151 @@
 
 		<link rel="stylesheet" type="text/css" href="./style.css">
 
-		<title></title>
+		<title>Developer Portfolio</title>
 
 	</head>
 
-	<body class="bg-dark">
+	<body class="text-center">
 
 		<!-- Navbar Start -->
-		<nav class="navbar navbar-dark bg-light">
-		  <a class="navbar-brand ml-auto" href="#landing-page">Home</a>
-		  <a class="navbar-brand" href="#about-me">About Me</a>
-		  <a class="navbar-brand" href="#gallery">Gallery</a>
-		  <a class="navbar-brand mr-auto" href="#contact-me">Contact Me</a>
-
+		<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+		  <a class="navbar-brand" href="#landing-page">Home</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+		    <ul class="navbar-nav ml-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#about-me">About Me <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#gallery">Gallery</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#contact">Contact Me</a>
+		      </li>
+		    </ul>
+		  </div>
 		</nav>
 		<!-- Navbar End -->
 
 		<!-- Main Section Start -->
-		<div class="container col-md-12 mt-0 text-center">
-			<!-- Landing Page Start -->
-			<div class="row min-vh-100 p-5 bg-success" id="landing-page">
-				<div class="col-md-6 col-12 m-auto p-5 bg-warning">
-					<h2 class="text-light header-1">Lemuel Coros</h2>
-					<h3 class="text-light">Full-Stack Web Developer</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-			</div>
-			<!-- Landing Page End -->
 
-			<!-- About Me Start -->
-			<div class="row min-vh-100 p-5 bg-secondary" id="about-me">
-				<div class="col">
-					<h2 class="text-light mt-5">About Me</h2>
-					<h3 class="text-light">Full-Stack Web Developer</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<!-- Landing Page Start -->
+		<div class="container-fluid min-vh-100 pb-5 text-light" id="landing-page">
+			<div class="row">
+				<div class=" container col-md-6 mr-auto ml-auto mt-5">
+					<h1 class="header-1">Hello World!</h1>
+					<p>Web Developer Portfolio</p>
 				</div>
 			</div>
-			<!-- About Me End -->
-
-			<!-- Gallery Start -->
-<h2 class="text-light">Gallery</h2>
-			<div class="min-vh-100 p-3 d-md-flex justify-content-around" id="gallery">
-				<div class="row p-5">
-					<div class="col-md-6">
-						<h2 class="text-light">Toucan</h2>
-						<img width="500" src="https://media.istockphoto.com/id/1367631464/photo/colorful-tucan.jpg?s=612x612&w=0&k=20&c=hCB61OPk9gYAkzs6Zsc-_C-rsRD6OF8RNmSNuVC8v4E=" class="img-fluid">
-					</div>
-					<div class="col-md-6">
-						<h2 class="text-light">Cockatoo</h2>
-						<img width="500" src="./images/cockatoo.jpg" class="img-fluid">
-					</div>
-				</div>
-				<div class="row p-5">
-					<div class="col-md-6">
-						<h2 class="text-light">Macaw</h2>
-						<img width="500" src="./images/macaw.jpg" class="img-fluid">
-					</div>
-					<div class="col-md-6">
-						<h2 class="text-light">Scarlet Macaw</h2>
-						<img width="500" src="./images/scarletmacaw.jpg" class="img-fluid">
-					</div>
-				</div>
-			</div>
-				
-			
-			
-			<!-- Gallery End -->
-
-			<!-- Contact Start -->
-			<div class="row min-vh-100 bg-warning p-5" id="contact">
-				<div class="col-md-6 mr-auto ml-auto br-danger">
-					<h2 class="mt-5 text-light">Contact Me</h2>
-					<form class="p-4" id="form">
-					  <div class="form-row">
-					    <div class="form-group col-md-6">
-					      <label class="mr-auto">Full Name</label>
-					      <input type="text" class="form-control" id="inputEmail4">
-					    </div>
-					    <div class="form-group col-md-6">
-					      <label>Email</label>
-					      <input type="password" class="form-control" id="inputPassword4">
-					    </div>
-					  </div>
-					  <div class="form-row">
-					  	<div class="form-group col-md-12">
-					  		<label>Message</label>
-					  		<textarea class="form-group col p-1" rows="5"></textarea>
-					  	</div>
-					  </div>
-					  <button type="submit" class="btn btn-primary" id="submit">Sign in</button>
-					</form>
-					
-				</div>
-				
-			</div>
-			<!-- Contact End -->
 		</div>
-		<!-- Main Section End-->
+		<!-- Landing Page End -->
 
-		<!-- Footer Start -->
+		<!-- About Me Start -->
+		<div class="container-fluid min-vh-100  pt-5 text-light" id="about-me">
+			<h1 class="header-2">About Me</h1>
+			<div class="row">
+				<div class="col-sm-12 p-5 pb-3 col-lg-6 mt-5 intro">
+				<h2 class="pt-5 mt-3 mr-auto">Hi! Lemuel Coros here</h2>
+				<p class="p-3 text-justify">A soon to be full-stack web developer. I recently come across a free coding bootcamp and decided to try it. I really enjoyed it and decided to enroll to a coding bootcamp. The language I speak as of now is HTML and the tools i use are CSS and Bootstrap. I am looking forward to working with you!</p>
+				</div>
+				<div class="col-sm-12 p-5 pb-3 col-lg-6">
+					<h2 class="pt-5 mt-3 mb-5">Tools</h2>
+					<img width="400" src="./images/tools.png" class="img-fluid d-block mr-auto ml-auto">
+					<img width="400" src="./images/bootstrap.png" class="img-fluid">
+				</div>
+			</div>
+		</div>		
+		<!-- About Me End -->
 
-		<!-- Footer End -->
+		<!-- Gallery Start -->
+		<div class="container-fluid min-vh-100 pt-5 text-light" id="gallery">
+			<h1 class="header-3 ml-auto mr-auto">Gallery</h1>
+			<div class="row">
+				<div class="col-sm-12 p-5 pb-3 col-lg-6">
+					<h2>Toucan</h2>
+					<img width="500" src="./images/toucan.jpg" class="img-fluid">
+					<h3 class="mt-3">Fun Fact</h3>
+					<p class="text-justify">The common name "toucan" comes from the sound the birds make, says the San Diego Zoo.1 Toucans are among the world’s noisiest birds. When they sing, they sound like frogs croaking. They also make tapping and clattering noises with their bills. Some toucan species also make barking, growling, and braying sounds. Female toucans typically have higher voices than males. They use their calls to rally other birds to good foraging sites and to differentiate themselves from other groups of toucans.</p>
+					<audio id="sound1" src="./audio/toucan.mp3"></audio>
+					<div class="container">
+						<h4 class="pt-4">Let's hear what a toucan sounds like!</h4>
+						<button class="sound1 text-light btn" onclick="document.getElementById('sound1').play();">Play</button>
+					</div>
+				</div>
+				<div class="col-sm-12 p-5 pb-3 col-lg-6">
+					<h2>Cockatoo</h2>
+					<img width="500" src="./images/cockatoo.jpg" class="img-fluid">
+					<h3 class="mt-3">Fun Fact</h3>
+					<p class="text-justify">While all parrots can scream, cockatoos are notoriously loud. A cockatoo's contact call can be heard for up to a mile or more away. This is especially true early in the morning and near sunset when they would naturally call out in the wild. Because they have extremely boisterous voices, cockatoos are not recommended for people who live in small spaces. Bringing one home to an apartment complex or a townhouse can quickly splinter good relations with your neighbors.</p>
+					<audio id="sound2" src="./audio/cockatoo.mp3"></audio>
+					<div class="container">
+						<h4 class="pt-3">Let's hear what a cockatoo sounds like!</h4>
+						<button class="sound1 text-light btn" onclick="document.getElementById('sound2').play();">Play</button>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 p-5 pb-3 col-lg-6">
+					<h2>Macaw</h2>
+					<img width="500" src="./images/macaw.jpg" class="img-fluid">
+					<h3 class="mt-3">Fun Fact</h3>
+					<p class="text-justify">A macaw’s unique appearance is akin to a human fingerprint. Ranging in color from the brightest red through to turquoise, yellow and bright indigo, these birds are a sight to be seen. What’s amazing is that each bird’s coloring is distinct to where they live and their vibrant colors actually blend quite well with the Amazon’s rainbow-colored plants and foliage.</p>
+					<audio id="sound3" src="./audio/macaw.wav"></audio>
+					<div class="container">
+						<h4 class="pt-3">Let's hear what a macaw sounds like!</h4>
+						<button class="sound1 text-light btn" onclick="document.getElementById('sound3').play();">Play</button>
+					</div>
+				</div>
+				<div class="col-sm-12 p-5 pb-3 col-lg-6">
+					<h2>African Grey Parrot</h2>
+					<img width="500" src="./images/greyparrot.jpg" class="img-fluid">
+					<h3 class="mt-3">Fun Fact</h3>
+					<p class="text-justify">Though they can fly, African grey parrots don’t always do it as frequently as other birds. For instance, they travel across tree canopies using their beaks and claws instead of flying from branch to branch. If you’re considering getting a parrot as a pet, make sure you get something bigger so she has room to fly around and climb, especially when you’re not home.</p>
+					<audio id="sound4" src="./audio/africangreyparrot.mp3"></audio>
+					<div class="container">
+						<h4 class="pt-3">Let's hear what an african grey parrot sounds like!</h4>
+						<button class="sound1 text-light btn" onclick="document.getElementById('sound4').play();">Play</button>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- Gallery End -->
+
+		<!-- Contact Me Start -->
+		<div class="container-fluid min-vh-100 pt-5 pb-3 text-light" id="contact">
+			<h1 class="header-4 ml-auto mr-auto">Contact Me</h1>
+			<div class="row ml-auto mr-auto p-3 col-md-10">
+					<form class="p-2 col-sm-4 col-md-8 mr-auto ml-auto mt-5 needs-validation" id="form" required>
+						 <div class="form-row">
+						   	<div class="form-group col-sm-4 col-md-12 col-lg-8 mr-auto ml-auto">
+						     	<label class="text-light label-form">Full Name</label>
+						     	<input type="text" class="form-control" placeholder="Full Name" required>
+						   	</div>
+						 </div>
+						 <div class="form-row">
+						 	<div class="form-group col-sm-4 col-md-12 col-lg-8 mr-auto ml-auto">
+						     	<label class="text-light label-form">Email</label>
+						     	<input type="email" class="form-control" placeholder="name@gmail.com" required>
+						   </div>
+						 </div>
+						 <div class="form-row">
+						  	<div class="form-group col-sm-4 col-md-12 col-lg-8 mr-auto ml-auto">
+						  		<label class="text-light label-form">Message</label>
+						  		<textarea class="form-group col p-1" rows="5"></textarea>
+						  	</div>
+						 </div>
+
+						 <button type="submit" class="btn btn-primary">Send</button>
+				 	</form>
+			</div>
+		</div>
+
+		<!-- Contact Me End -->
+
+		<!-- Main Section End -->
 
 		<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
 		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
