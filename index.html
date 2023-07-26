@@ -20,10 +20,10 @@
 
 	</head>
 
-	<body class="text-center">
+	<body class="text-center text-light">
 
 		<!-- Navbar Start -->
-		<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+		<nav class="navbar navbar-expand-lg fixed-top navbar-dark mb-5">
 		  <a class="navbar-brand" href="#landing-page">Home</a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
@@ -34,7 +34,10 @@
 		        <a class="nav-link" href="#about-me">About Me <span class="sr-only">(current)</span></a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#gallery">Gallery</a>
+		        <a class="nav-link" href="#tools">Tools</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#projects">Projects</a>
 		      </li>
 		      <li class="nav-item">
 		        <a class="nav-link" href="#contact">Contact Me</a>
@@ -47,113 +50,110 @@
 		<!-- Main Section Start -->
 
 		<!-- Landing Page Start -->
-		<div class="container-fluid min-vh-100 pb-5 text-light" id="landing-page">
+		<div class="container-fluid min-vh-100 pb-5 " id="landing-page">
 			<div class="row">
-				<div class=" container col-md-6 mr-auto ml-auto mt-5">
-					<h1 class="header-1">Hello World!</h1>
-					<p>Web Developer Portfolio</p>
+				<div class="d-flex flex-column container col-md-6 mt-5">
+					<h1 class="header-1 mr-auto ml-auto ">Hello World!</h1>
 				</div>
 			</div>
 		</div>
 		<!-- Landing Page End -->
 
 		<!-- About Me Start -->
-		<div class="container-fluid min-vh-100  pt-5 text-light" id="about-me">
+		<div class="container-fluid min-vh-100  pt-5 " id="about-me">
 			<h1 class="header-2">About Me</h1>
 			<div class="row">
-				<div class="col-sm-12 p-5 pb-3 col-lg-6 mt-5 intro">
-				<h2 class="pt-5 mt-3 mr-auto">Hi! Lemuel Coros here</h2>
-				<p class="p-3 text-justify">A soon to be full-stack web developer. I recently come across a free coding bootcamp and decided to try it. I really enjoyed it and decided to enroll to a coding bootcamp. The language I speak as of now is HTML and the tools i use are CSS and Bootstrap. I am looking forward to working with you!</p>
-				</div>
-				<div class="col-sm-12 p-5 pb-3 col-lg-6">
-					<h2 class="pt-5 mt-3 mb-5">Tools</h2>
-					<img width="400" src="./images/tools.png" class="img-fluid d-block mr-auto ml-auto">
-					<img width="400" src="./images/bootstrap.png" class="img-fluid">
+				<div class="col-sm-12 p-5 pb-3 col-lg-6 mt-5 ml-auto mr-auto intro text-light">
+					<h2 class="pt-5 mt-3 mr-auto">Hi! Lemuel Coros here</h2>
+					<p class="p-3 ">A full-stack web developer.I recently come across a free coding bootcamp and I tried it. To my surprise, I really enjoyed it, so I decided to enroll into a 3 month program that includes Front-End, Back-End and Full-Stack program. The front-end program includes HTML5, CSS3 and Bootstrap. The back-end consists of Javascript, Node.js, MongoDB and Express.js. The full-stack consists of React.js, Dom-manipulation and API integration with fetch. I just finished the program and I am looking forward to work with you!</p>
 				</div>
 			</div>
 		</div>		
 		<!-- About Me End -->
 
-		<!-- Gallery Start -->
-		<div class="container-fluid min-vh-100 pt-5 text-light" id="gallery">
-			<h1 class="header-3 ml-auto mr-auto">Gallery</h1>
+		<!-- Tools Start -->
+		<div class="container-fluid min-vh-100 pt-5 text-light" id="tools">
+			<h1 class="header-3 ml-auto mr-auto mb-5">Tools</h1>
 			<div class="row">
-				<div class="col-sm-12 p-5 pb-3 col-lg-6">
-					<h2>Toucan</h2>
-					<img width="500" src="./images/toucan.jpg" class="img-fluid">
-					<h3 class="mt-3">Fun Fact</h3>
-					<p class="text-justify">The common name "toucan" comes from the sound the birds make, says the San Diego Zoo.1 Toucans are among the world’s noisiest birds. When they sing, they sound like frogs croaking. They also make tapping and clattering noises with their bills. Some toucan species also make barking, growling, and braying sounds. Female toucans typically have higher voices than males. They use their calls to rally other birds to good foraging sites and to differentiate themselves from other groups of toucans.</p>
-					<audio id="sound1" src="./audio/toucan.mp3"></audio>
-					<div class="container">
-						<h4 class="pt-4">Let's hear what a toucan sounds like!</h4>
-						<button class="sound1 text-light btn" onclick="document.getElementById('sound1').play();">Play</button>
+				<div class="col-sm-12 d-md-flex flex-column">
+					<h1 class="d-block">Core Tools</h1>
+					<div class="col-sm-12 col-lg-10 mr-auto ml-auto tools">
+							<img width="200" src="./images/html-icon.png" class="img-fluid ml-auto mr-auto">
+							<img width="200" src="./images/css-icon.png" class="img-fluid ml-auto mr-auto">
+							<img width="200" src="./images/javascript-icon.png" class="img-fluid ml-auto mr-auto">
 					</div>
 				</div>
-				<div class="col-sm-12 p-5 pb-3 col-lg-6">
-					<h2>Cockatoo</h2>
-					<img width="500" src="./images/cockatoo.jpg" class="img-fluid">
-					<h3 class="mt-3">Fun Fact</h3>
-					<p class="text-justify">While all parrots can scream, cockatoos are notoriously loud. A cockatoo's contact call can be heard for up to a mile or more away. This is especially true early in the morning and near sunset when they would naturally call out in the wild. Because they have extremely boisterous voices, cockatoos are not recommended for people who live in small spaces. Bringing one home to an apartment complex or a townhouse can quickly splinter good relations with your neighbors.</p>
-					<audio id="sound2" src="./audio/cockatoo.mp3"></audio>
-					<div class="container">
-						<h4 class="pt-3">Let's hear what a cockatoo sounds like!</h4>
-						<button class="sound1 text-light btn" onclick="document.getElementById('sound2').play();">Play</button>
+				<div class="col-sm-12 d-flex flex-column justify-content-around align-items-md-center">
+					<h1 class="d-block mb-5">Other Tools</h1>
+					<div class="d-flex flex-md-row flex-column tools">
+						<img width="200" src="./images/bootstrap-icon.png" class="img-fluid ml-auto mr-auto">
+						<img width="200" src="./images/mongodb-icon.png" class="img-fluid ml-auto mr-auto">
+						<img width="200"  src="./images/expressjs-icon.png" class="img-fluid ml-auto mr-auto">
+						<img width="200" src="./images/nodejs-icon.png" class="img-fluid ml-auto mr-auto">
 					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-12 p-5 pb-3 col-lg-6">
-					<h2>Macaw</h2>
-					<img width="500" src="./images/macaw.jpg" class="img-fluid">
-					<h3 class="mt-3">Fun Fact</h3>
-					<p class="text-justify">A macaw’s unique appearance is akin to a human fingerprint. Ranging in color from the brightest red through to turquoise, yellow and bright indigo, these birds are a sight to be seen. What’s amazing is that each bird’s coloring is distinct to where they live and their vibrant colors actually blend quite well with the Amazon’s rainbow-colored plants and foliage.</p>
-					<audio id="sound3" src="./audio/macaw.wav"></audio>
-					<div class="container">
-						<h4 class="pt-3">Let's hear what a macaw sounds like!</h4>
-						<button class="sound1 text-light btn" onclick="document.getElementById('sound3').play();">Play</button>
+					<div class="d-flex flex-md-row flex-column tools">
+						<img width="200" src="./images/postman-icon.png" class="img-fluid ml-auto mr-auto">
+						<img width="200" src="./images/react-icon.png" class="img-fluid ml-auto mr-auto">
+						<img width="200" src="./images/git-icon.png" class="img-fluid ml-auto mr-auto">
+						<img width="200" src="./images/sublime-icon.png" class="img-fluid ml-auto mr-auto">
 					</div>
-				</div>
-				<div class="col-sm-12 p-5 pb-3 col-lg-6">
-					<h2>African Grey Parrot</h2>
-					<img width="500" src="./images/greyparrot.jpg" class="img-fluid">
-					<h3 class="mt-3">Fun Fact</h3>
-					<p class="text-justify">Though they can fly, African grey parrots don’t always do it as frequently as other birds. For instance, they travel across tree canopies using their beaks and claws instead of flying from branch to branch. If you’re considering getting a parrot as a pet, make sure you get something bigger so she has room to fly around and climb, especially when you’re not home.</p>
-					<audio id="sound4" src="./audio/africangreyparrot.mp3"></audio>
-					<div class="container">
-						<h4 class="pt-3">Let's hear what an african grey parrot sounds like!</h4>
-						<button class="sound1 text-light btn" onclick="document.getElementById('sound4').play();">Play</button>
-					</div>
-
 				</div>
 			</div>
 		</div>
-		<!-- Gallery End -->
+
+		<!-- Tools End -->
+
+		<!-- Projects Start -->
+		<div class="container-fluid min-vh-100 pt-5 " id="projects">
+			<h1 class="header-4 ml-auto mr-auto text-light">Projects</h1>
+			<div class="row card-row">
+				<div class="col-sm-12 p-5 pb-3 col-12 d-md-flex flex-md-column">
+					<div class="d-lg-flex justify-content-center p-md-5 col-lg-10 mr-auto ml-auto card-container">
+						<div class="card col-xl-4 mb-5 mr-5 mb-xl-0">
+							  <div class="card-body d-flex flex-column text-light">
+							    <h5 class="card-title mt-3"> E-Commerce Back-End Project</h5>
+							    <p class="card-text">Using node.js and express.js framework, I am able to create a back-end project. My project is an E-Commerce API with the functionalities of an E-Commerce website. It has basic functions like user registration,  user login, duplicate email checker wherein you cannot register if the email is already registered, getting all active products and checkout function. For the admin side, you can get a user details, you can also get all the products including the inactive products, create products, update products, deactivate products and activate products.</p>
+							    <a href="https://capstone-2-coros.onrender.com" target="_blank"class="card-link text-light mt-auto">Link To Project</a>
+							  </div>
+						</div>
+						<div class="card col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
+						  <div class="card-body d-flex flex-column text-light">
+						    <h5 class="card-title mt-3">E-Commerce Full-Stack Project</h5>
+						    <p class="card-text">Using React.js, I am able to create a single page e-commerce website. I connected my e-commerce back-end project to create a full-stack website. Upon using my back-end project, I am able to create an e-commerce website. Utilizing the functionalities of my back-end, I am able to create a functioning e-commerce website with register, login, view all products, view single product, and checkout functions for the user/customer. The admin side gets all the products in a table for easy viewing. The other functions is to create another product, update existing product, deactivate the product and activate the product.  </p>
+						    <a href="https://caps-3-d52uy6jr9-cheeesedog.vercel.app" target="_blank" class="card-link text-light mt-auto">Link To Project</a>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Projects End -->
 
 		<!-- Contact Me Start -->
-		<div class="container-fluid min-vh-100 pt-5 pb-3 text-light" id="contact">
-			<h1 class="header-4 ml-auto mr-auto">Contact Me</h1>
+		<div class="container-fluid min-vh-100 pt-5 pb-3 " id="contact">
+			<h1 class="header-5 ml-auto mr-auto text-light">Contact Me</h1>
 			<div class="row ml-auto mr-auto p-3 col-md-10">
-					<form class="p-2 col-sm-4 col-md-8 mr-auto ml-auto mt-5 needs-validation" id="form" required>
+					<form class="p-2 col-sm-4 col-md-10 col-lg-6 mr-auto ml-auto mt-5 needs-validation form" action="https://formspree.io/f/mvojglyy" method="POST" id="form" required>
 						 <div class="form-row">
 						   	<div class="form-group col-sm-4 col-md-12 col-lg-8 mr-auto ml-auto">
-						     	<label class="text-light label-form">Full Name</label>
-						     	<input type="text" class="form-control" placeholder="Full Name" required>
+						     	<label class=" label-form text-light">Full Name</label>
+						     	<input type="text" class="form-control" placeholder="Full Name" name="name" required>
 						   	</div>
 						 </div>
 						 <div class="form-row">
 						 	<div class="form-group col-sm-4 col-md-12 col-lg-8 mr-auto ml-auto">
-						     	<label class="text-light label-form">Email</label>
-						     	<input type="email" class="form-control" placeholder="name@gmail.com" required>
+						     	<label class=" label-form text-light">Email</label>
+						     	<input type="email" class="form-control" placeholder="name@gmail.com" name="email" required>
 						   </div>
 						 </div>
 						 <div class="form-row">
 						  	<div class="form-group col-sm-4 col-md-12 col-lg-8 mr-auto ml-auto">
-						  		<label class="text-light label-form">Message</label>
-						  		<textarea class="form-group col p-1" rows="5"></textarea>
+						  		<label class=" label-form text-light">Message</label>
+						  		<textarea class="form-group col p-1" name="message" rows="5"></textarea>
 						  	</div>
 						 </div>
 
-						 <button type="submit" class="btn btn-primary">Send</button>
+						 <button type="submit" class="btn btn-dark mb-2">Send</button>
 				 	</form>
 			</div>
 		</div>
